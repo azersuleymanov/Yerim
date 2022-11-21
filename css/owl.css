@@ -1,0 +1,42 @@
+/*OWL*/
+.owlSubCategories .owl-item img{
+    width: auto;
+}
+.owlSubCategories .owl-next{
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+.owlSubCategories .owl-prev{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.owlPlaces .owl-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+}
+.owlPlaces button.owl-dot{
+    width: 8px;
+    height: 8px;
+    background: #A1A1A1;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+.owlPlaces button.owl-dot.active{
+    background: white;
+}
+.owlPlaceInner .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+}
+.owlPlaceInner .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}

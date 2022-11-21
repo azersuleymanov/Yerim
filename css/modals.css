@@ -1,0 +1,35 @@
+/*MODAL*/
+.modal-feedback__dialog{
+    max-width: 600px;
+}
+.modal-feedback__header{
+    padding: 20px 15px 0;
+    border: 0;
+}
+.modal-feedback__body{
+    padding: 0 15px 20px;
+}
+.modal-feedback-success__dialog{
+    max-width: 385px;
+}
+.modal-feedback-success__title{
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.modal-feedback-success__text{
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.modal-feedback-success__btn{
+    width: 100%;
+    display: block;
+    color: #219653;
+    font-size: 16px;
+}
+.modal-feedback__btn:focus, .modal-feedback__btn:active{
+    box-shadow: none;
+}

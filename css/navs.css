@@ -1,0 +1,95 @@
+/*NAVS*/
+.nav-footer__link-img{
+    margin-bottom: 10px;
+}
+.nav-footer__link{
+    color: #636E85;
+    font-size: 12px;
+}
+.nav-footer__link:hover{
+    color: #FF385C;
+}
+.nav-footer__link--active{
+    color: #FF385C;
+}
+.nav-footer__link:hover .nav-footer__link-img--active{
+    display: block!important;
+}
+.nav-footer__link:hover .nav-footer__link-img--noactive{
+    display: none!important;
+}
+.nav-footer__link--active .nav-footer__link-img--noactive{
+    display: none!important;
+}
+.nav-footer__link--active .nav-footer__link-img--active{
+    display: block!important;
+}
+.nav-place-info{
+    border-bottom: 1px solid #DDE3F0;
+    margin-bottom: 20px;
+}
+.nav-place-info__item{
+    padding: 20px 0;
+}
+.nav-place-info__item--active .nav-place-info__link{
+    color: #FF385C;
+    border-bottom: 1px solid #FF385C;
+}
+.nav-place-info__link{
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636E85;
+    transition: all .5s;
+}
+.nav-place-info__link:hover, .nav-place-info__link:focus, .nav-place-info__link:active{
+    color: #FF385C;
+    border-bottom: 1px solid #FF385C;
+    transition: all .5s;
+}
+.nav-contact__item:not(.nav-contact__item:last-child){
+    margin-right: 20px;
+}
+/*MOBILE*/
+.nav-mobile-menu__item{
+    margin: 15px 0;
+}
+.nav-mobile-menu__item:last-child{
+    margin-right: 0;
+}
+.nav-mobile-menu__link{
+    background: #F9FAFC;
+    color: #636E85;
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.nav-mobile-menu__link:hover{
+    background: #FF385C;
+    color: white;
+}
+.nav-mobile-menu__link--active{
+    background: #FF385C;
+    color: white;
+}
+.nav-mobile-sort-menu__item{
+    border-right: 1px solid #D9D9D9;
+}
+.nav-mobile-sort-menu__item:first-child .nav-mobile-sort-menu__link{
+    padding-left: 0;
+}
+.nav-mobile-sort-menu__item:last-child{
+    border-right: 0;
+}
+.nav-mobile-sort-menu__link{
+    color: #636E85;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 20px;
+}
+.nav-mobile-sort-menu__link:hover{
+    color: #FF385C;
+}
+.nav-mobile-sort-menu__link--active{
+    color: #FF385C;
+}

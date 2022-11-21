@@ -1,0 +1,34 @@
+/*HEADER*/
+.header{
+    box-shadow: 0 0 10px 0 #E3E3E3;
+}
+.header-top{
+    background: #FF385C;
+    padding: 16px 0;
+}
+.header-top__title{
+    font-size: 12px;
+    color: white;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.header-bottom{
+    padding: 20px 0;
+}
+.header-bottom__link-search{
+    width: 40px;
+    height: 40px;
+    background: #E8E8E8;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.header-bottom__btn-feedback{
+    font-size: 12px;
+    padding: 10px 16px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.header-bottom__dropdown>*{
+    font-size: 12px;
+}

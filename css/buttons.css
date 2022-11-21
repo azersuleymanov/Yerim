@@ -1,0 +1,61 @@
+/*BUTTONS*/
+.btn.btn-black{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    transition: all .5s;
+}
+.btn.btn-black:hover, .btn.btn-black:focus, .btn.btn-black:active{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    transition: all .5s;
+}
+.btn.btn-white{
+    background: white;
+    color: #FF385C;
+    border: 1px solid white;
+    transition: all .5s;
+}
+.btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    transition: all .5s;
+}
+.btn.btn-trns-green{
+    background: transparent;
+    border: 1px solid #219653;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.btn.btn-trns-green:hover, .btn.btn-trns-green:focus, .btn.btn-trns-green:active{
+    background: #219653;
+    color: white;
+    border: 1px solid #219653;
+    transition: all .5s;
+}
+.btn.btn-blue{
+    background: #25B1FF;
+    color: white;
+    border: 1px solid #25B1FF;
+    transition: all .5s;
+}
+.btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-blue:active{
+    background: #1672a8;
+    color: white;
+    border: 1px solid #1672a8;
+    transition: all .5s;
+}
+.btn.btn-red{
+    background: #FF385C;
+    color: white;
+    border: 1px solid #FF385C;
+    transition: all .5s;
+}
+.btn.btn-red:hover, .btn.btn-red:focus, .btn.btn-red:active{
+    background: #FF385C;
+    color: white;
+    border: 1px solid #FF385C;
+    transition: all .5s;
+}

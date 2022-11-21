@@ -1,0 +1,22 @@
+/*FONTS*/
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+.font-p-r{
+    font-family: "Poppins-Regular";
+}
+.font-p-m{
+    font-family: "Poppins-Medium";
+}
+.font-p-b{
+    font-family: "Poppins-Bold";
+}

@@ -1,0 +1,20 @@
+body{
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    color: black;
+    opacity: 0;
+}
+a{
+    cursor: pointer;
+    text-decoration: none!important;
+    transition: all .5s;
+}
+a:hover{
+    transition: all .5s;
+}
+.pb-20{
+    padding-bottom: 20px!important;
+}
+.pb-70{
+    padding-bottom: 70px;
+}

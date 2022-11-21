@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Yerim</title>
+</head>
+<body>
+<header class="header">
+    <div class="header-top">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="header-top__title">
+                    We are <span class="font-p-b">Beta version 1.0</span>
+                    <img class="header-top__img" src="images/smile.png" alt="Smile">
+                </p>
+                <a class="header-top__link" href="#">
+                    <img class="header-top__link-img" src="images/header-top-close.png" alt="Close">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-3 col-lg-2 col-xxl-2">
+                    <a class="header-bottom__link-logo" href="index.html">
+                        <img class="header-bottom__link-logo-img" src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-xxl-7 d-none d-lg-block">
+                    <form class="form form-search font-p-m d-none" method="post" action="/">
+                        <div class="form-search__group">
+                            <div class="search-select"></div>
+                            <select class="form-search__select d-none" name="userSearch" multiple="multiple"></select>
+                        </div>
+                        <div class="form-search-block form-search-block--absolute">
+                            <div class="form-search-block__top">
+                                <h4 class="form-search-block__title">Search</h4>
+                                <a class="form-search-block__link-close" href="#">
+                                    <img class="form-search-block__link-close-img" src="images/search-close.png" alt="Close">
+                                </a>
+                            </div>
+                            <div class="form-search-block__center">
+                                <div class="form-search-block-item">
+                                    <h4 class="form-search-block-item__title">Category</h4>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">All</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Restaurants</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Pubs & Bars</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Clubs</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Tea house</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Coffee shop</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Fast food</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-search-block-item">
+                                    <h4 class="form-search-block-item__title">Subcategory</h4>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                                <span class="form-search-filter__link-title">Business lunch</span>
+                                            </a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                                <span class="form-search-filter__link-title">Breakfast</span>
+                                            </a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                                <span class="form-search-filter__link-title">Night date</span>
+                                            </a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                                <span class="form-search-filter__link-title">Vegan</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-search-block-item">
+                                    <h4 class="form-search-block-item__title">Filter</h4>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Vegan</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Xəngəl havası</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Day-day kafesi</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Xüsusi görüş</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Coffeeshop</a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">Takos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-search-block-item">
+                                    <h4 class="form-search-block-item__title">Amenities</h4>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                                <span class="form-search-filter__link-title">Card payments</span>
+                                            </a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                                <span class="form-search-filter__link-title">Wi-Fi</span>
+                                            </a>
+                                        </div>
+                                        <div class="form-search-filter">
+                                            <a class="form-search-filter__link" href="#">
+                                                <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                                <span class="form-search-filter__link-title">Reserve</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-search-block-item">
+                                    <h4 class="form-search-block-item__title">Sort by</h4>
+                                    <div class="form-search__group">
+                                        <input class="btn-check form-search-block__radio" name="userSortBy" type="radio" id="userSortBy1" checked="checked">
+                                        <label class="btn form-search-block__btn-label font-p-m" for="userSortBy1">Most popular</label>
+                                        <input class="btn-check form-search-block__radio" name="userSortBy" type="radio" id="userSortBy2">
+                                        <label class="btn form-search-block__btn-label font-p-m" for="userSortBy2">Close to me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-search-block__bottom">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <button class="btn btn-reset form-search-block__btn" type="reset">Sıfırla</button>
+                                    <button class="btn btn-red form-search-block__btn" name="submitSearch" type="submit">
+                                        <span class="form-search-block__btn-title">Search</span>
+                                        <img class="form-search-block__btn-img" src="images/form-search-filter.png" alt="Search">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-9 col-lg-4 col-xxl-3">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="d-none d-lg-block">
+                            <a class="header-bottom__link-search" href="#">
+                                <img class="header-bottom__link-search-img" src="images/form-search.png" alt="Search">
+                            </a>
+                        </div>
+                        <a class="btn btn-black btn-feedback header-bottom__btn-feedback d-flex justify-content-center align-items-center font-p-m" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                            <span class="btn-feedback__title">Send us feedback</span>
+                            <img class="btn-feedback__img" src="images/pizza.png" alt="Pizza">
+                        </a>
+                        <div class="dropdown header-bottom__dropdown">
+                            <button class="btn btn-dropdown-toggle" data-bs-toggle="dropdown">
+                                <span>AZ</span>
+                                <img src="images/dropdown.png" alt="Dropdown">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">EN</a></li>
+                                <li><a class="dropdown-item" href="#">RU</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="section section-title-block d-none d-lg-block">
+        <div class="container">
+            <h1 class="section-title-block__title font-p-b">New & Futures Category</h1>
+        </div>
+    </section>
+    <section class="section section-categories font-p-m d-none d-lg-block">
+        <div class="container">
+            <div class="row section-categories__flex row-cols-7">
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/allcategories.png" alt="All">
+                            <span class="thumbnail-category__title">All</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-restaraunts.png" alt="Restaraunts">
+                            <span class="thumbnail-category__title">Restaurants</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-pubs.png" alt="Pubs & Bars">
+                            <span class="thumbnail-category__title">Pubs & Bars</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-clubs.png" alt="Clubs">
+                            <span class="thumbnail-category__title">Clubs</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-tea.png" alt="Tea house">
+                            <span class="thumbnail-category__title">Tea house</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-coffee.png" alt="Coffee shop">
+                            <span class="thumbnail-category__title">Coffee shop</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail thumbnail-category position-relative">
+                        <a class="thumbnail-category__link text-center d-block" href="#">
+                            <img class="thumbnail-category__img m-auto" src="images/category-fastfood.png" alt="Fast food">
+                            <span class="thumbnail-category__title">Fast food</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-mobile-menu d-lg-none">
+        <div class="container">
+            <div class="owl-carousel owlMobileMenu">
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link nav-mobile-menu__link--active all" href="#">All</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Restaurants</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Pubs & Bars</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Clubs</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Tea house</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Coffee shop</a>
+                </div>
+                <div class="nav-mobile-menu__item">
+                    <a class="nav-mobile-menu__link" href="#">Fast food</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-subcategories">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10">
+                    <div class="subcategory-block">
+                        <div class="owl-carousel owlSubCategories">
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">All</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory2.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Lunch</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory3.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Breakfast</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory4.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Night date</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory5.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Vegan</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory6.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Mixed</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory7.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Local</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory8.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Asian</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory9.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Mexican</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory10.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Italian</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory11.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Turkish</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="subcategory-block__link" href="#">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <div class="subcategory-block__img-block d-flex justify-content-center align-items-center">
+                                            <img class="subcategory-block__img" src="images/subcategory11.png" alt="Subcategory">
+                                        </div>
+                                        <h4 class="subcategory-block__title text-center">Turkish</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                    <div class="d-flex justify-content-end">
+                        <form class="form form-sortby" method="post">
+                            <div class="form-group">
+                                <div class="form-sortby__select-block">
+                                    <select class="form-control form-sortby__select font-p-m" name="sortBy">
+                                        <option value="0" selected disabled>Sort by</option>
+                                        <option value="1">Most Popular</option>
+                                        <option value="2">Close to me</option>
+                                        <option value="2">Open now</option>
+                                    </select>
+                                    <img class="form-sortby__img" src="images/form-sortby.png" alt="SortBy">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-mobile-sort-menu d-lg-none">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <ul class="nav nav-mobile-sort-menu">
+                    <li class="nav-mobile-sort-menu__item">
+                        <a class="nav-mobile-sort-menu__link nav-mobile-sort-menu__link--active" href="#">Most popular</a>
+                    </li>
+                    <li class="nav-mobile-sort-menu__item">
+                        <a class="nav-mobile-sort-menu__link" href="#">Closest</a>
+                    </li>
+                </ul>
+                <a class="btn btn-mobile-map mobile-map d-flex align-items-center justify-content-center font-p-m" href="#">
+                    <img class="btn-map__img" src="images/mobile-map.png" alt="Map">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section section-title-block pb-20">
+        <div class="container">
+            <h1 class="section-title-block__title font-p-b">All</h1>
+        </div>
+    </section>
+    <section class="section section-places">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--open ms-auto">
+                                        <p class="place-open-close__title">Open</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--close ms-auto">
+                                        <p class="place-open-close__title">Close</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--open ms-auto">
+                                        <p class="place-open-close__title">Open</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--close ms-auto">
+                                        <p class="place-open-close__title">Close</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--open ms-auto">
+                                        <p class="place-open-close__title">Open</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="thumbnail thumbnail-place">
+                        <a class="thumbnail-place__link" href="place-inner.html">
+                            <div class="owl-carousel owlPlaces">
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-place__img" src="images/category-block.png" alt="Category Block">
+                                </div>
+                            </div>
+                            <div class="thumbnail-place__caption">
+                                <p class="thumbnail-place__type">Restaurant</p>
+                                <h4 class="thumbnail-place__title font-p-b">Metropol Restaurant</h4>
+                                <p class="thumbnail-place__view font-p-m">Views: <span>200</span></p>
+                                <p class="d-flex thumbnail-place__location align-items-start">
+                                    <img class="thumbnail-place__location-img" src="images/location.png" alt="Location">
+                                    <span class="thumbnail-place__location-title">37 Akademik Lətif İmanov, Bakı 1141</span>
+                                </p>
+                                <div class="d-flex align-items-end font-p-m">
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-service">
+                                        <p class="place-service__title">Canlı musiqi</p>
+                                    </div>
+                                    <div class="place-open-close place-open-close--close ms-auto">
+                                        <p class="place-open-close__title">Close</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-map d-none">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2542819202913!2d49.84681671538349!3d40.38105657936923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d09c62e19b1%3A0x9aad0f3cd1388621!2z0YHRgi4gMjgg0JzQsNGP!5e0!3m2!1sru!2s!4v1667941193851!5m2!1sru!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="btn-map-block d-none d-lg-block">
+        <a class="btn btn-black btn-map desktop-map d-flex align-items-center justify-content-center font-p-m" href="#">
+            <span class="btn-map__title">Show map</span>
+            <img class="btn-map__img" src="images/map.png" alt="Map">
+        </a>
+        <a class="btn btn-black btn-map desktop-list d-flex align-items-center justify-content-center font-p-m d-none" href="#">
+            <span class="btn-map__title">Show list</span>
+            <img class="btn-map__img" src="images/list.png" alt="List">
+        </a>
+    </div>
+    <div class="d-lg-none">
+        <a class="btn btn-black btn-mobile-map mobile-list d-flex align-items-center justify-content-center font-p-m d-none" href="#">
+            <span class="btn-mobile-map__title">Show list</span>
+            <img class="btn-mobile-map__img" src="images/list.png" alt="List">
+        </a>
+    </div>
+    <div class="d-lg-none">
+        <section class="section section-footer">
+            <div class="container">
+                <ul class="nav nav-footer justify-content-around align-items-center font-p-m">
+                    <li class="nav-footer__item">
+                        <a class="nav-footer__link nav-footer__link--active d-flex flex-column align-items-center" href="index.html">
+                            <img class="nav-footer__link-img nav-footer__link-img--noactive" src="images/mobile-home.png" alt="Home">
+                            <img class="nav-footer__link-img nav-footer__link-img--active d-none" src="images/mobile-home-active.png" alt="Home">
+                            <span class="nav-footer__link-title">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-footer__item">
+                        <a class="d-flex nav-footer__link flex-column align-items-center" href="#">
+                            <img class="nav-footer__link-img nav-footer__link-img--noactive" src="images/mobile-search.png" alt="Search">
+                            <img class="nav-footer__link-img nav-footer__link-img--active d-none" src="images/mobile-search-active.png" alt="Search">
+                            <span class="nav-footer__link-title">Search</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="d-lg-none">
+        <section class="section section-mobile-search">
+            <div class="container">
+                <form class="form form-search pb-70 font-p-m d-none" method="post" action="/">
+                    <div class="form-search__group">
+                        <div class="search-select"></div>
+                        <select class="form-search__select d-none" name="userSearch" multiple="multiple"></select>
+                    </div>
+                    <div class="form-search-block">
+                        <div class="form-search-block__center">
+                            <div class="form-search-block-item">
+                                <h4 class="form-search-block-item__title">Category</h4>
+                                <div class="d-flex flex-wrap">
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">All</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Restaurants</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Pubs & Bars</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Clubs</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Tea house</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Coffee shop</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Fast food</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-search-block-item">
+                                <h4 class="form-search-block-item__title">Subcategory</h4>
+                                <div class="d-flex flex-wrap">
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                            <span class="form-search-filter__link-title">Business lunch</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                            <span class="form-search-filter__link-title">Breakfast</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                            <span class="form-search-filter__link-title">Night date</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="SubCategory">
+                                            <span class="form-search-filter__link-title">Vegan</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-search-block-item">
+                                <h4 class="form-search-block-item__title">Filter</h4>
+                                <div class="d-flex flex-wrap">
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Vegan</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Xəngəl havası</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Day-day kafesi</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Xüsusi görüş</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Coffeeshop</a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">Takos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-search-block-item">
+                                <h4 class="form-search-block-item__title">Amenities</h4>
+                                <div class="d-flex flex-wrap">
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                            <span class="form-search-filter__link-title">Card payments</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                            <span class="form-search-filter__link-title">Wi-Fi</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-search-filter">
+                                        <a class="form-search-filter__link" href="#">
+                                            <img class="form-search-filter__link-img" src="images/subcategory2.png" alt="Amenities">
+                                            <span class="form-search-filter__link-title">Reserve</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-search-block-item">
+                                <h4 class="form-search-block-item__title">Sort by</h4>
+                                <div class="form-search__group">
+                                    <input class="btn-check form-search-block__radio" name="userSortBy" type="radio" id="userSortBy3" checked="checked">
+                                    <label class="btn form-search-block__btn-label font-p-m" for="userSortBy3">Most popular</label>
+                                    <input class="btn-check form-search-block__radio" name="userSortBy" type="radio" id="userSortBy4">
+                                    <label class="btn form-search-block__btn-label font-p-m" for="userSortBy4">Close to me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-search-block__bottom">
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <button class="btn btn-red form-search-block__btn" name="submitSearch" type="submit">
+                                        <span class="form-search-block__btn-title">Search</span>
+                                        <img class="form-search-block__btn-img" src="images/form-search-filter.png" alt="Search">
+                                    </button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-reset form-search-block__btn" type="reset">Sıfırla</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</main>
+<footer class="footer d-none d-lg-block">
+    <div class="container">
+        <div class="d-flex justify-content-md-between justify-content-lg-end align-items-center">
+            <form class="form form-subscribe" method="post" action="/">
+                <div class="form-subscribe__group">
+                    <input class="form-control form-subscribe__input" name="userEmail" type="email" placeholder="Yeniliklərdən xəbərdar olun">
+                    <button class="btn btn-white form-subscribe__btn font-p-m" name="submitSubscribe" type="submit">Abunə ol</button>
+                </div>
+            </form>
+            <p class="footer__copyright">© 2022 Yerim. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal modal-feedback fade" id="feedbackModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-feedback__dialog">
+        <div class="modal-content modal-feedback__content">
+            <div class="modal-header modal-feedback__header">
+                <button type="button" class="btn-close modal-feedback__btn" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modal-feedback__body">
+                <form class="form form-feedback modal-feedback__form-feedback" method="post" action="/">
+                    <div class="d-flex form-feedback__title-block align-items-center justify-content-center">
+                        <h4 class="form-feedback__title font-p-b">Send us feedback</h4>
+                        <img class="form-feedback__img" src="images/pizza.png" alt="Pizza">
+                    </div>
+                    <div class="form-feedback__form-group">
+                        <input class="form-control form-feedback__input" name="userFullName" type="text" placeholder="Full name">
+                    </div>
+                    <div class="form-feedback__form-group">
+                        <input class="form-control form-feedback__input" name="userMail" type="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-feedback__form-group">
+                        <textarea class="textarea form-control form-feedback__textarea" name="userFeedback" rows="5" placeholder="Your feedback"></textarea>
+                    </div>
+                    <div class="form-feedback__form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Checkbox
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-feedback__flex d-flex justify-content-center align-items-center">
+                        <button class="btn btn-black form-feedback__btn d-flex justify-content-center align-items-center font-p-m" name="submitFeedback" type="submit">
+                            <span class="form-feedback__btn-title">Send feedback</span>
+                            <img class="form-feedback__btn-img" src="images/pizza.png" alt="Pizza">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal modal-feedback-success fade" id="feedbackSuccessModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-feedback-success__dialog">
+        <div class="modal-content modal-feedback-success__content">
+            <div class="modal-body modal-feedback-success__body">
+                <div class="text-center">
+                    <h4 class="modal-feedback-success__title font-p-m">Thanks for feedback!</h4>
+                    <p class="modal-feedback-success__text font-p-r">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.
+                    </p>
+                    <a class="btn btn-block btn-trns-green modal-feedback-success__btn font-p-m" data-bs-dismiss="modal" aria-label="Close">Thanks!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
