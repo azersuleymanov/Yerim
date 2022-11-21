@@ -83,7 +83,7 @@ $(document).ready(function (){
       $(".section-map").removeClass("d-none");
       $(".btn-map.desktop-list").removeClass("d-none");
       $(".btn-map.desktop-map").addClass("d-none");
-      $(".footer").toggleClass("d-md-block");
+      $(".footer").toggleClass("d-lg-block");
    });
    $(".btn-map.desktop-list").click(function (e){
       e.preventDefault();
@@ -91,7 +91,7 @@ $(document).ready(function (){
       $(".section-map").addClass("d-none");
       $(".btn-map.desktop-map").removeClass("d-none");
       $(".btn-map.desktop-list").addClass("d-none");
-      $(".footer").addClass("d-md-block");
+      $(".footer").addClass("d-lg-block");
    });
 
    // SEARCH
